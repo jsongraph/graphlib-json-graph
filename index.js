@@ -45,5 +45,5 @@ function addEdge(graph, edge) {
 	var source = edge.source;
 	var target = edge.target;
 	var id = edge.id;
-	graph.setEdge(source, target, edge, label);
+	graph.setEdge(source, target, edge, id);
 }
