@@ -4,7 +4,7 @@
   "description": "Converts json-graph definitions into graphlib graphs.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
@@ -23,6 +23,7 @@
   "homepage": "https://github.com/jsongraph/graphlib-json-graph",
   "dependencies": {
     "graphlib": "^1.0.4",
+    "mocha": "^2.2.5",
     "par": "^0.3.0",
     "prop": "^0.1.1"
   }
