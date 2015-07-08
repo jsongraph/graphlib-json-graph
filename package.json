@@ -1,0 +1,29 @@
+{
+  "name": "graphlib-json-graph",
+  "version": "1.0.0",
+  "description": "Converts json-graph definitions into graphlib graphs.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jsongraph/graphlib-json-graph.git"
+  },
+  "keywords": [
+    "json",
+    "graph",
+    "graphlib"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jsongraph/graphlib-json-graph/issues"
+  },
+  "homepage": "https://github.com/jsongraph/graphlib-json-graph",
+  "dependencies": {
+    "graphlib": "^1.0.4",
+    "par": "^0.3.0",
+    "prop": "^0.1.1"
+  }
+}
